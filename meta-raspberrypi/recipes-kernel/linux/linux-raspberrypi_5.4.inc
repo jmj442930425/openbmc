@@ -1,7 +1,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/linux-raspberrypi:"
 
 SRC_URI = " \
-    git://github.com/raspberrypi/linux.git;branch=${LINUX_RPI_BRANCH} \
+    git://github.com/jmj442930425/linux.git;branch=${LINUX_RPI_BRANCH} \
     "
 SRC_URI_remove = "file://rpi-kernel-misc.cfg"
 
